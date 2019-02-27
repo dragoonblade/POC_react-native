@@ -14,6 +14,7 @@ export const AvengersListItemView = ({item}) => {
             <Image source={pic} style={{width: 193, height: 110}} className="card-img-top" alt="Avenger" title="Avenger Image"/>
             <View className="card-body">
                 <Text className="card-title"> {item.Name} </Text>
+                <Text className="card-title"> {`Favourite: ${!!item.isFavorite}`} </Text>
                 <Text className="card-text"> {`Powers : ${item.Powers}`} </Text>
                 <Text className="card-text"> {item.Description} </Text>
             </View>
