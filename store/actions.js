@@ -1,0 +1,4 @@
+export const actions = {
+    SET_AVENGERS: 'SET_AVENGERS_DATA_STORE',
+    SET_FAVORITES: 'SET_FAVORITE_AVENGER'
+}
